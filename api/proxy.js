@@ -3,7 +3,7 @@ import { createProxyMiddleware } from 'http-proxy-middleware'
 export default (req, res) => {
   let target = ''
   if (req.url.startsWith('/api'))
-    target = process.env.VITE_APP_API_BASE_URL
+    target = 'https://47.96.179.163:3002'
 
   createProxyMiddleware({
     target,
