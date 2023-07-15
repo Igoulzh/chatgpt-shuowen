@@ -41,7 +41,7 @@ export default {
     addTips: '请正确填写输入框中的内容',
   },
   chat: {
-    defaultName: '说文',
+    defaultName: 'pig_chatGPT',
     newChatButton: '新建聊天',
     placeholder: '来说点什么吧...（Shift + Enter = 换行，"/" 触发提示词）',
     placeholderMobile: '来说点什么...',

@@ -24,7 +24,7 @@ export function defaultSetting(): UserState {
   return {
     userInfo: {
       avatar: 'https://raw.githubusercontent.com/Chanzhaoyu/chatgpt-shuowen/main/src/assets/avatar.jpg',
-      name: '说文',
+      name: 'pig_chatGPT',
       description: 'Star on <a href="https://github.com/mjjh1717/chatgpt-shuowen" class="text-blue-500" target="_blank" >Github</a>',
       id: '',
       email: '',
