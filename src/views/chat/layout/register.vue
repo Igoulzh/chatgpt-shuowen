@@ -198,10 +198,10 @@ function handlePress(event: KeyboardEvent) {
       <NInput v-model:value="userInfo.email" @keypress="handlePress" />
     </NFormItem>
     <NFormItem path="passWord" :label="$t('common.passWord')">
-      <NInput v-model:value="userInfo.passWord" @keypress="handlePress" />
+      <NInput v-model:value="userInfo.passWord" type="password" @keypress="handlePress" />
     </NFormItem>
     <NFormItem path="reenteredPassWord" :label="$t('common.passWord')">
-      <NInput v-model:value="userInfo.reenteredPassWord" :disabled="!userInfo.passWord" @keypress="handlePress" />
+      <NInput v-model:value="userInfo.reenteredPassWord" type="password" :disabled="!userInfo.passWord" @keypress="handlePress" />
     </NFormItem>
     <NFormItem path="captcha" :label="$t('common.captcha')">
       <NInput v-model:value="userInfo.captcha" @keypress="handlePress" />
