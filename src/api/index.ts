@@ -1,6 +1,6 @@
 /*
  * @Author: mjjh
- * @LastEditTime: 2023-04-16 17:44:19
+ * @LastEditTime: 2023-07-19 20:55:28
  * @FilePath: \chagpt-shuowen\src\api\index.ts
  * @Description:
  */
@@ -36,5 +36,20 @@ export function fetchChatAPIProcess<T = any>(
     data,
     signal: params.signal,
     onDownloadProgress: params.onDownloadProgress,
+  })
+}
+
+export function getApiList(
+  params: {
+    pageSize: number
+    pageNum: number
+  },
+) {
+  return post<T>({
+    url: '/admin/api_key/page',
+    data: {
+      pageSize: params.pageSize,
+      pageNum: params.pageNum,
+    },
   })
 }
