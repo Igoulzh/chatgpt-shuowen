@@ -71,6 +71,7 @@ export default {
     general: 'General',
     advanced: 'Advanced',
     config: 'Config',
+    domain: 'Domain',
     avatarLink: 'Avatar Link',
     name: 'Name',
     description: 'Description',

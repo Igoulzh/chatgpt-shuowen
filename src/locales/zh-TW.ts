@@ -71,6 +71,7 @@ export default {
     general: '總覽',
     advanced: '高級',
     config: '設定',
+    domain: '功能變數名稱',
     avatarLink: '頭貼連結',
     name: '名稱',
     description: '描述',
